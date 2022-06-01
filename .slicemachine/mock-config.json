@@ -12,6 +12,16 @@
           }
         }
       }
+    },
+    "ProductImage": {
+      "default": {
+        "primary": {},
+        "items": {
+          "productimage": {
+            "content": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85"
+          }
+        }
+      }
     }
   }
 }

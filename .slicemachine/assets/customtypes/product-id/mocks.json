@@ -1,6 +1,17 @@
 {
-  "id": "39f51767-3268-42b9-80ff-2e135ca2ff1a",
-  "uid": "cumque-aut-omnis",
+  "id": "487ef93e-d143-4e24-93f7-966c7c3cf8a4",
+  "uid": "quis-pariatur-tempora",
   "type": "product-id",
-  "data": {}
+  "data": {
+    "producttitle": "transform strategic blockchains",
+    "productimage": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"
+    }
+  }
 }

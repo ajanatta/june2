@@ -1,6 +1,82 @@
 {
   "slices": {
     "components": {
+      "product_image": {
+        "library": "slices",
+        "id": "product_image",
+        "name": "ProductImage",
+        "description": "ProductImage",
+        "model": {
+          "id": "product_image",
+          "type": "SharedSlice",
+          "name": "ProductImage",
+          "description": "ProductImage",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ProductImage",
+              "primary": {},
+              "items": {
+                "productimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Productimage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "product_image",
+            "items": [
+              {
+                "productimage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "productimage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
+                }
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/macbook/Documents/prismic/4/app/.slicemachine/assets/slices/ProductImage/default/preview.png",
+            "width": 800,
+            "height": 1136
+          }
+        }
+      },
       "text_image_right": {
         "library": "slices",
         "id": "text_image_right",
